@@ -2,9 +2,6 @@ package chess;
 
 import chess.pieces.*;
 
-import java.util.Map;
-import java.util.HashMap;
-
 public class Board {
     Tile[][] tiles = new Tile[8][8];
     public boolean blackCanCastleKingSide;
